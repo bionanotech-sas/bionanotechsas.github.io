@@ -1,0 +1,64 @@
+
+
+
+# Site Settings
+locale                   : "en-UK"
+title                    : "Bionanotech SAS"
+title_separator          : "-"
+subtitle                 : "Servicios en tecnologías emergentes para la salud"
+name                     : 
+description              : "Servicios en tecnologías emergentes para la salud"
+url                      : "http://www.bionanotechsas.com"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "mnavarretem/bionanotechsas.github.io"
+teaser                   : #"/assets/images/teaser_eeg.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : #"/assets/images/mn-logo_88x77.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+
+
+# Outputting
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
