@@ -6,11 +6,11 @@ locale                   : "en-UK"
 title                    : "Bionanotech SAS"
 title_separator          : "-"
 subtitle                 : "Servicios en tecnologías emergentes para la salud"
-name                     : 
+name                     :
 description              : "Servicios en tecnologías emergentes para la salud"
 url                      : "http://www.bionanotechsas.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "mnavarretem/bionanotechsas.github.io"
+repository               : "bionanotech-sas/bionanotechsas.github.io"
 teaser                   : #"/assets/images/teaser_eeg.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : #"/assets/images/mn-logo_88x77.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
